@@ -1,0 +1,23 @@
+1. The data structure that had the best performace for this operation was the doubly linked list,
+and the array list and singly linked list operations had the worst performace.
+(specifically the array list add and the linked list remove)
+
+2. Array List: The remove method was relatively quick because the last value in the list was simply removed until the list was empty.
+There was no reallocation of memory as there is when the add method exeeds the current size of the array list. A reason the array list
+add method may have been slow is because the array list has to grow and set aside a new spot in memory for a whole new array when it
+grows which takes a lot of time.
+Add: Linear
+Remove: Constant
+
+Linked List: A reason why the linked list remove method may have been slow is because the temp pointer has to move through every node
+in the list (and through memory) until it gets near the end of the list before actually deleting the tail node. The add method was
+relatively quick because there was no need to advance through the list to add a node. A new node just needed to be created and to assign
+head to the new node.
+Add: Constant
+Remove: Linear
+
+Doubly Linked List: The doubly linked list was relatively fast compared to the array list and linked list because the
+doubly linked list uses sentinel nodes with references to both the head and the tail. Therefore, the location and deletion
+of the head and tail nodes is very quick and simple.
+Add: Constant
+Remove: Constant

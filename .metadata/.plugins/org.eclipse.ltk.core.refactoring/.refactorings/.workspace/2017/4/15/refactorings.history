@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;ListADT_ExpandableArray2&apos; to &apos;ListADT_ExpandableArray&apos;&#x0D;&#x0A;- Original element: &apos;ListADT_ExpandableArray2&apos;&#x0D;&#x0A;- Renamed element: &apos;ListADT_ExpandableArray2&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;ListADT_ExpandableArray2&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=ListADT_ExpandableArray2" name="ListADT_ExpandableArray" references="true" stamp="1492195305325" version="1.0"/>
+</session>
